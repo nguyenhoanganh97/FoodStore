@@ -2,9 +2,10 @@
   "name": "food-store",
   "version": "1.0.0",
   "description": "order dishes in food store (API)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo 'test'"
+    "test": "echo 'test'",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/nguyenhoanganh97/FoodStore/issues"
   },
-  "homepage": "https://github.com/nguyenhoanganh97/FoodStore#readme"
+  "homepage": "https://github.com/nguyenhoanganh97/FoodStore#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "validator": "^13.5.2"
+  }
 }
